@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+body{
+  display: flex;
+  font-family: "PT Sans", sans-serif ;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: white;
+  color: black;
+}
+.button{
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+}
+
+.list-style{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.page-header{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.page-header-logo{
+  margin-right: 30px;
+}
+.navigation{
+  display: flex;
+}
+
+.navigation-list{
+  margin: 0;
+  padding: 0;
+  width: 450px;
+}
+.navigation-user{
+  margin: 0;
+  padding: 0;
+  max-width: 250px;
+  margin-left: auto;
+}
+
+.navigation-link{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.welcome-picture{
+  color: white;
+  background-color: #84b5d6;
+  background-image: url("../images/background-main.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
